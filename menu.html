@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="eu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" href="img/title.png" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:300,regular,500,600,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <title>Eatly</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__inner container">
+      <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="Logo" />
+      </a>
+      <div class="menu menu_header">
+        <div class="menu__icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="menu__nav">
+          <ul class="menu__list">
+            <li><a href="menu.html" class="menu__link">Menu</a></li>
+            <li><a href="#" class="menu__link">Blog</a></li>
+            <li><a href="#" class="menu__link">Pricing</a></li>
+            <li><a href="#" class="menu__link">Contact</a></li>
+          </ul>
+          <div class="menu__block-btn">
+            <a href="#" class="btn_login btn">Login</a>
+            <a href="#" class="btn">Sing Up</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="subscribe">
+    <div class="container">
+      <div class="subscribe__inner">
+        <div class="subscribe__image-block">
+          <img src="/img/subs-food.png" alt="food" class="subscribe__image-food">
+        </div>
+        <h1 class="subscribe_title title">GET 50%</h1>
+        <form class="form">
+          <input type="email" name="email" autocomplete="on" placeholder="Enter Your Email Address"
+            class="form__input" />
+          <button type="submit" class="btn btn_input">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="restaurant">
+    <div class="restaurant__inner container">
+      <h2 class="restaurant__title title">Our Top <span>Restaurants</span></h2>
+      <div class="restaurant__block">
+        <div class="restaurant__item">
+          <div class="restaurant__overlay">
+            <img src="/img/our1.jpg" alt="Our Top">
+          </div>
+          <div class="restaurant__content">
+            <p class="category category_healthy">Healthy</p>
+            <h3 class="restaurant__title-item title">The Chicken King</h3>
+            <div class="restaurant__text text">
+              <div class="over">
+                <svg class="over__flag" viewBox="0 0 11 15">
+                  <use xlink:href="sprite.svg#flag"></use>
+                </svg>
+              </div>
+              <p>24min •</p>
+              <svg class="star" viewBox="0 0 18 19">
+                <use xlink:href="sprite.svg#star"></use>
+              </svg>
+              <p>4.8</p>
+            </div>
+          </div>
+        </div>
+        <div class="restaurant__item">
+          <div class="restaurant__overlay">
+            <img src="/img/our2.jpg" alt="Our Top">
+          </div>
+          <div class="restaurant__content">
+            <p class="category category_trending">Trending</p>
+            <h3 class="restaurant__title-item title">The Burger King</h3>
+            <div class="restaurant__text text">
+              <div class="over">
+                <svg class="over__flag" viewBox="0 0 11 15">
+                  <use xlink:href="sprite.svg#flag"></use>
+                </svg>
+              </div>
+              <p>24min •</p>
+              <svg class="star" viewBox="0 0 18 19">
+                <use xlink:href="sprite.svg#star"></use>
+              </svg>
+              <p>4.9</p>
+            </div>
+          </div>
+        </div>
+        <div class="restaurant__item">
+          <div class="restaurant__overlay">
+            <img src="/img/our1.jpg" alt="Our Top">
+          </div>
+          <div class="restaurant__content">
+            <p class="category category_healthy">Healthy</p>
+            <h3 class="restaurant__title-item title">The Chicken King</h3>
+            <div class="restaurant__text text">
+              <div class="over">
+                <svg class="over__flag" viewBox="0 0 11 15">
+                  <use xlink:href="sprite.svg#flag"></use>
+                </svg>
+              </div>
+              <p>24min •</p>
+              <svg class="star" viewBox="0 0 18 19">
+                <use xlink:href="sprite.svg#star"></use>
+              </svg>
+              <p>4.8</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="view">View All
+        <svg class="view_arrow arrow-right" viewBox="0 0 28 28">
+          <use xlink:href="sprite.svg#arrow-right"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="dishes">
+    <div class="dishes__inner container">
+      <h2 class="dishes__title title">Our Top <span>Dishes</span></h2>
+      <div class="dishes__block">
+        <div class="dishes__item">
+          <svg class="dishes__heart heart" viewBox="0 0 17 14">
+            <use xlink:href="sprite.svg#heart"></use>
+          </svg>
+          <div class="dishes__overlay">
+            <img src="/img/food1.png" alt="Our Top">
+          </div>
+          <div class="dishes__content">
+            <p class="category category_healthy">Healthy</p>
+            <h3 class="dishes__title-item title">Chicken Hell</h3>
+            <div class="restaurant__text text">
+              <p>24min •</p>
+              <svg class="dishes__star star" viewBox="0 0 18 19">
+                <use xlink:href="sprite.svg#star"></use>
+              </svg>
+              <p>4.8</p>
+            </div>
+            <div class="dishes__block-price text">
+              <p class="price">$12 <span>.99</span></p>
+              <div class="dishes__plus">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dishes__item">
+          <svg class="dishes__heart heart" viewBox="0 0 17 14">
+            <use xlink:href="sprite.svg#heart"></use>
+          </svg>
+          <div class="dishes__overlay">
+            <img src="/img/food2.png" alt="Our Top">
+          </div>
+          <div class="dishes__content">
+            <p class="category category_trending">Trending</p>
+            <h3 class="dishes__title-item title">Swe Dish</h3>
+            <div class="restaurant__text text">
+              <p>34min •</p>
+              <svg class="dishes__star star" viewBox="0 0 18 19">
+                <use xlink:href="sprite.svg#star"></use>
+              </svg>
+              <p>4.9</p>
+            </div>
+            <div class="dishes__block-price text">
+              <p class="price">$19 <span>.99</span></p>
+              <div class="dishes__plus">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dishes__item">
+          <svg class="dishes__heart heart" viewBox="0 0 17 14">
+            <use xlink:href="sprite.svg#heart"></use>
+          </svg>
+          <div class="dishes__overlay">
+            <img src="/img/food1.png" alt="Our Top">
+          </div>
+          <div class="dishes__content">
+            <p class="category category_supreme">Supreme</p>
+            <h3 class="dishes__title-item title">Chicken Hell</h3>
+            <div class="restaurant__text text">
+              <p>24min •</p>
+              <svg class="dishes__star star" viewBox="0 0 18 19">
+                <use xlink:href="sprite.svg#star"></use>
+              </svg>
+              <p>4.8</p>
+            </div>
+            <div class="dishes__block-price text">
+              <p class="price">$12 <span>.99</span></p>
+              <div class="dishes__plus">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dishes__item">
+          <svg class="dishes__heart heart" viewBox="0 0 17 14">
+            <use xlink:href="sprite.svg#heart"></use>
+          </svg>
+          <div class="dishes__overlay">
+            <img src="/img/food2.png" alt="Our Top">
+          </div>
+          <div class="dishes__content">
+            <p class="category category_trending">Trending</p>
+            <h3 class="dishes__title-item title">Swe Dish</h3>
+            <div class="restaurant__text text">
+              <p>34min •</p>
+              <svg class="dishes__star star" viewBox="0 0 18 19">
+                <use xlink:href="sprite.svg#star"></use>
+              </svg>
+              <p>4.9</p>
+            </div>
+            <div class="dishes__block-price text">
+              <p class="price">$19 <span>.99</span></p>
+              <div class="dishes__plus">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dishes__item">
+          <svg class="dishes__heart heart" viewBox="0 0 17 14">
+            <use xlink:href="sprite.svg#heart"></use>
+          </svg>
+          <div class="dishes__overlay">
+            <img src="/img/food1.png" alt="Our Top">
+          </div>
+          <div class="dishes__content">
+            <p class="category category_healthy">Healthy</p>
+            <h3 class="dishes__title-item title">Chicken Hell</h3>
+            <div class="restaurant__text text">
+              <p>24min •</p>
+              <svg class="dishes__star star" viewBox="0 0 18 19">
+                <use xlink:href="sprite.svg#star"></use>
+              </svg>
+              <p>4.8</p>
+            </div>
+            <div class="dishes__block-price text">
+              <p class="price">$12 <span>.99</span></p>
+              <div class="dishes__plus">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features">
+        <div class="features__inner container">
+          <div class="features__item">
+            <h3 class="features__title">10K+</h3>
+            <p class="features__text">Satisfied Costumers All <br> Great Over The World</p>
+          </div>
+          <div class="features__item">
+            <h3 class="features__title">4M</h3>
+            <p class="features__text">Healthy Dishes Sold <br> Including Milk Shakes Smooth</p>
+          </div>
+          <div class="features__item">
+            <h3 class="features__title">99.99%</h3>
+            <p class="features__text">Reliable Customer Support <br> We Provide Great Experiences</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="app">
+        <div class="app__inner container">
+          <div class="app__image">
+            <img src="img/mobile.png" alt="Intro_image" />
+            <svg class="app__mobile-line" viewBox="0 0 32 35">
+              <use xlink:href="sprite.svg#mobile-line"></use>
+            </svg>
+          </div>
+          <div class="app__content">
+            <h2 class="app__title title">Premium <span>Quality</span> <br> For Your Health</h2>
+            <ul class="app__text text">
+              <li>Premium quality food is made with ingredients that are packed with essential vitamins, minerals.</li>
+              <li>These foods promote overall wellness by support healthy digestion and boosting immunity</li>
+            </ul>
+            <div class="app__btn">
+              <a href="#" class="btn">Download
+                <svg class="btn_arrow arrow-right" viewBox="0 0 28 28">
+                  <use xlink:href="sprite.svg#arrow-right"></use>
+                </svg>
+              </a>
+              <svg class="arrow-spiral" viewBox="0 0 169 61">
+                <use xlink:href="sprite.svg#arrow-spiral"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="restaurant">
+        <div class="restaurant__inner container">
+          <h2 class="restaurant__title title">Our Top <span>Restaurants</span></h2>
+          <div class="restaurant__block">
+            <div class="restaurant__item">
+              <div class="restaurant__overlay">
+                <img src="/img/our1.jpg" alt="Our Top">
+              </div>
+              <div class="restaurant__content">
+                <p class="category category_healthy">Healthy</p>
+                <h3 class="restaurant__title-item title">The Chicken King</h3>
+                <div class="restaurant__text text">
+                  <div class="over">
+                    <svg class="over__flag" viewBox="0 0 11 15">
+                      <use xlink:href="sprite.svg#flag"></use>
+                    </svg>
+                  </div>
+                  <p>24min •</p>
+                  <svg class="star" viewBox="0 0 18 19">
+                    <use xlink:href="sprite.svg#star"></use>
+                  </svg>
+                  <p>4.8</p>
+                </div>
+              </div>
+            </div>
+            <div class="restaurant__item">
+              <div class="restaurant__overlay">
+                <img src="/img/our2.jpg" alt="Our Top">
+              </div>
+              <div class="restaurant__content">
+                <p class="category category_trending">Trending</p>
+                <h3 class="restaurant__title-item title">The Burger King</h3>
+                <div class="restaurant__text text">
+                  <div class="over">
+                    <svg class="over__flag" viewBox="0 0 11 15">
+                      <use xlink:href="sprite.svg#flag"></use>
+                    </svg>
+                  </div>
+                  <p>24min •</p>
+                  <svg class="star" viewBox="0 0 18 19">
+                    <use xlink:href="sprite.svg#star"></use>
+                  </svg>
+                  <p>4.9</p>
+                </div>
+              </div>
+            </div>
+            <div class="restaurant__item">
+              <div class="restaurant__overlay">
+                <img src="/img/our1.jpg" alt="Our Top">
+              </div>
+              <div class="restaurant__content">
+                <p class="category category_healthy">Healthy</p>
+                <h3 class="restaurant__title-item title">The Chicken King</h3>
+                <div class="restaurant__text text">
+                  <div class="over">
+                    <svg class="over__flag" viewBox="0 0 11 15">
+                      <use xlink:href="sprite.svg#flag"></use>
+                    </svg>
+                  </div>
+                  <p>24min •</p>
+                  <svg class="star" viewBox="0 0 18 19">
+                    <use xlink:href="sprite.svg#star"></use>
+                  </svg>
+                  <p>4.8</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="view">View All
+            <svg class="view_arrow arrow-right" viewBox="0 0 28 28">
+              <use xlink:href="sprite.svg#arrow-right"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="dishes">
+        <div class="dishes__inner container">
+          <h2 class="dishes__title title">Our Top <span>Dishes</span></h2>
+          <div class="dishes__block">
+            <div class="dishes__item">
+              <svg class="dishes__heart heart" viewBox="0 0 17 14">
+                <use xlink:href="sprite.svg#heart"></use>
+              </svg>
+              <div class="dishes__overlay">
+                <img src="/img/food1.png" alt="Our Top">
+              </div>
+              <div class="dishes__content">
+                <p class="category category_healthy">Healthy</p>
+                <h3 class="dishes__title-item title">Chicken Hell</h3>
+                <div class="restaurant__text text">
+                  <p>24min •</p>
+                  <svg class="dishes__star star" viewBox="0 0 18 19">
+                    <use xlink:href="sprite.svg#star"></use>
+                  </svg>
+                  <p>4.8</p>
+                </div>
+                <div class="dishes__block-price text">
+                  <p class="price">$12 <span>.99</span></p>
+                  <div class="dishes__plus">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dishes__item">
+              <svg class="dishes__heart heart" viewBox="0 0 17 14">
+                <use xlink:href="sprite.svg#heart"></use>
+              </svg>
+              <div class="dishes__overlay">
+                <img src="/img/food2.png" alt="Our Top">
+              </div>
+              <div class="dishes__content">
+                <p class="category category_trending">Trending</p>
+                <h3 class="dishes__title-item title">Swe Dish</h3>
+                <div class="restaurant__text text">
+                  <p>34min •</p>
+                  <svg class="dishes__star star" viewBox="0 0 18 19">
+                    <use xlink:href="sprite.svg#star"></use>
+                  </svg>
+                  <p>4.9</p>
+                </div>
+                <div class="dishes__block-price text">
+                  <p class="price">$19 <span>.99</span></p>
+                  <div class="dishes__plus">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dishes__item">
+              <svg class="dishes__heart heart" viewBox="0 0 17 14">
+                <use xlink:href="sprite.svg#heart"></use>
+              </svg>
+              <div class="dishes__overlay">
+                <img src="/img/food1.png" alt="Our Top">
+              </div>
+              <div class="dishes__content">
+                <p class="category category_supreme">Supreme</p>
+                <h3 class="dishes__title-item title">Chicken Hell</h3>
+                <div class="restaurant__text text">
+                  <p>24min •</p>
+                  <svg class="dishes__star star" viewBox="0 0 18 19">
+                    <use xlink:href="sprite.svg#star"></use>
+                  </svg>
+                  <p>4.8</p>
+                </div>
+                <div class="dishes__block-price text">
+                  <p class="price">$12 <span>.99</span></p>
+                  <div class="dishes__plus">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dishes__item">
+              <svg class="dishes__heart heart" viewBox="0 0 17 14">
+                <use xlink:href="sprite.svg#heart"></use>
+              </svg>
+              <div class="dishes__overlay">
+                <img src="/img/food2.png" alt="Our Top">
+              </div>
+              <div class="dishes__content">
+                <p class="category category_trending">Trending</p>
+                <h3 class="dishes__title-item title">Swe Dish</h3>
+                <div class="restaurant__text text">
+                  <p>34min •</p>
+                  <svg class="dishes__star star" viewBox="0 0 18 19">
+                    <use xlink:href="sprite.svg#star"></use>
+                  </svg>
+                  <p>4.9</p>
+                </div>
+                <div class="dishes__block-price text">
+                  <p class="price">$19 <span>.99</span></p>
+                  <div class="dishes__plus">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dishes__item">
+              <svg class="dishes__heart heart" viewBox="0 0 17 14">
+                <use xlink:href="sprite.svg#heart"></use>
+              </svg>
+              <div class="dishes__overlay">
+                <img src="/img/food1.png" alt="Our Top">
+              </div>
+              <div class="dishes__content">
+                <p class="category category_healthy">Healthy</p>
+                <h3 class="dishes__title-item title">Chicken Hell</h3>
+                <div class="restaurant__text text">
+                  <p>24min •</p>
+                  <svg class="dishes__star star" viewBox="0 0 18 19">
+                    <use xlink:href="sprite.svg#star"></use>
+                  </svg>
+                  <p>4.8</p>
+                </div>
+                <div class="dishes__block-price text">
+                  <p class="price">$12 <span>.99</span></p>
+                  <div class="dishes__plus">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="view">View All
+            <svg class="view_arrow arrow-right" viewBox="0 0 28 28">
+              <use xlink:href="sprite.svg#arrow-right"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="purchases">
+        <div class="purchases__inner container">
+          <div class="purchases__panel">
+            <h1 class="purchases__title title">Control <span>Purchases</span> Via Dashboard</h1>
+            <div class="purchases__history">
+              <div class="purchases__item">
+                <div class="purchases__item-content">
+                  <img src="/img/puchases1.png" alt="1" class="purchases__img">
+                  <div class="purchases__item-name">
+                    <h3 class="purchases__item-title title">Chicken Hell</h3>
+                    <p class="purchases__status">On The Way</p>
+                  </div>
+                </div>
+                <p class="purchases__item-time">3:09 PM</p>
+              </div>
+              <div class="purchases__item">
+                <div class="purchases__item-content">
+                  <img src="/img/puchases2.png" alt="2" class="purchases__img">
+                  <div class="purchases__item-name">
+                    <h3 class="purchases__item-title title">Swe Dish</h3>
+                    <p class="purchases__status purchases__status_delivered">Delivered</p>
+                  </div>
+                </div>
+                <p class="purchases__item-time">Yesterday</p>
+              </div>
+              <div class="purchases__item">
+                <div class="purchases__item-content">
+                  <img src="/img/puchases3.png" alt="3" class="purchases__img">
+                  <div class="purchases__item-name">
+                    <h3 class="purchases__item-title title">Fish Hell Veg</h3>
+                    <p class="purchases__status purchases__status_cancelled">Cancelled</p>
+                  </div>
+                </div>
+                <p class="purchases__item-time">Yesterday</p>
+              </div>
+            </div>
+            <svg class="arrow-spiral purchases__arrow-spiral" viewBox="0 0 169 61">
+              <use xlink:href="sprite.svg#arrow-spiral"></use>
+            </svg>
+          </div>
+          <div class="purchases__savings">
+            <div class="purchases__savings-head">
+              <h2 class="purchases__savings-title title">Purchases</h2>
+              <div class="purchases__select">
+                <select class="purchases__list" name="month">
+                  <option class="purchases__item-list">This month</option>
+                  <option class="purchases__item-list">Last month</option>
+                </select>
+              </div>
+            </div>
+            <div class="purchases__card">
+              <div class="purchases__card-content">
+                <svg class="wallet" viewBox="0 0 26 26">
+                  <use xlink:href="sprite.svg#wallet"></use>
+                </svg>
+                <div class="purchases__card-name">
+                  <h3 class="purchases__card-title title">Expense</h3>
+                  <p class="purchases__card-text text">Increased By 10%</p>
+                </div>
+              </div>
+              <p class="purchases__price">$409.00</p>
+              <div class="divider divider_wallet"></div>
+            </div>
+            <div class="purchases__card">
+              <div class="purchases__card-content">
+                <svg class="money" viewBox="0 0 26 26">
+                  <use xlink:href="sprite.svg#money"></use>
+                </svg>
+                <div class="purchases__card-name">
+                  <h3 class="purchases__card-title title">Vocher Usage</h3>
+                  <p class="purchases__card-text text">Increased By 5%</p>
+                </div>
+              </div>
+              <p class="purchases__price">$45.78</p>
+              <div class="divider divider_money"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review">
+        <div class="review__inner container">
+          <h3 class="review__title title"><span>Customer</span> Say</h3>
+          <div class="review__slider">
+            <div class="review__slider-inner">
+
+              <div class="review__part">
+                <div class="review__up-part">
+                  <div class="review__part-content">
+                    <img src="/img/review.png" alt="icon" class="review__part-img">
+                    <div class="review__part-name">
+                      <h3 class="review__part-title title">Alexander R.</h3>
+                      <p class="review__part-text text">01 Year With Us</p>
+                    </div>
+                  </div>
+                  <svg class="mark" viewBox="0 0 59 45">
+                    <use xlink:href="sprite.svg#mark"></use>
+                  </svg>
+                </div>
+                <div class="review__text text">
+                  “ Online invoice payment helps companies save time, are faster and save maximum effort for the clients
+                  and
+                  save maximum effort. Online invoice payment helps companies save time ”
+                </div>
+              </div>
+
+              <div class="review__part">
+                <div class="review__up-part">
+                  <div class="review__part-content">
+                    <img src="/img/review.png" alt="icon" class="review__part-img">
+                    <div class="review__part-name">
+                      <h3 class="review__part-title title">Alexander R.</h3>
+                      <p class="review__part-text text">01 Year With Us</p>
+                    </div>
+                  </div>
+                  <svg class="mark" viewBox="0 0 59 45">
+                    <use xlink:href="sprite.svg#mark"></use>
+                  </svg>
+                </div>
+                <div class="review__text text">
+                  “ Online invoice payment helps companies save time, are faster and save maximum effort for the clients
+                  and
+                  save maximum effort. Online invoice payment helps companies save time ”
+                </div>
+              </div>
+
+              <div class="review__part">
+                <div class="review__up-part">
+                  <div class="review__part-content">
+                    <img src="/img/review.png" alt="icon" class="review__part-img">
+                    <div class="review__part-name">
+                      <h3 class="review__part-title title">Alexander R.</h3>
+                      <p class="review__part-text text">01 Year With Us</p>
+                    </div>
+                  </div>
+                  <svg class="mark" viewBox="0 0 59 45">
+                    <use xlink:href="sprite.svg#mark"></use>
+                  </svg>
+                </div>
+                <div class="review__text text">
+                  “ Online invoice payment helps companies save time, are faster and save maximum effort for the clients
+                  and
+                  save maximum effort. Online invoice payment helps companies save time ”
+                </div>
+              </div>
+
+              <div class="review__part">
+                <div class="review__up-part">
+                  <div class="review__part-content">
+                    <img src="/img/review.png" alt="icon" class="review__part-img">
+                    <div class="review__part-name">
+                      <h3 class="review__part-title title">Alexander R.</h3>
+                      <p class="review__part-text text">01 Year With Us</p>
+                    </div>
+                  </div>
+                  <svg class="mark" viewBox="0 0 59 45">
+                    <use xlink:href="sprite.svg#mark"></use>
+                  </svg>
+                </div>
+                <div class="review__text text">
+                  “ Online invoice payment helps companies save time, are faster and save maximum effort for the clients
+                  and
+                  save maximum effort. Online invoice payment helps companies save time ”
+                </div>
+              </div>
+
+              <div class="review__part">
+                <div class="review__up-part">
+                  <div class="review__part-content">
+                    <img src="/img/review.png" alt="icon" class="review__part-img">
+                    <div class="review__part-name">
+                      <h3 class="review__part-title title">Alexander R.</h3>
+                      <p class="review__part-text text">01 Year With Us</p>
+                    </div>
+                  </div>
+                  <svg class="mark" viewBox="0 0 59 45">
+                    <use xlink:href="sprite.svg#mark"></use>
+                  </svg>
+                </div>
+                <div class="review__text text">
+                  “ Online invoice payment helps companies save time, are faster and save maximum effort for the clients
+                  and
+                  save maximum effort. Online invoice payment helps companies save time ”
+                </div>
+              </div>
+            </div>
+            <div class="divider review_divider"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="subscribe">
+        <div class="container">
+          <div class="subscribe__inner">
+            <div class="subscribe__image-block">
+              <img src="/img/subs-food.png" alt="food" class="subscribe__image-food">
+            </div>
+            <h1 class="subscribe_title title">GET 50%</h1>
+            <form class="form">
+              <input type="email" name="email" autocomplete="on" placeholder="Enter Your Email Address"
+                class="form__input" />
+              <button type="submit" class="btn btn_input">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__inner container">
+          <div class="footer__head">
+            <div class="footer__header"><a href="index.html" class="logo">
+                <img src="img/logo.png" alt="Logo" />
+              </a>
+              <div class="footer__icons footer__icons_top">
+                <a href="#" target="_blank" class="footer__icon"><svg class="icon" viewBox="0 0 16 16">
+                    <use xlink:href="sprite.svg#insta"></use>
+                  </svg></a>
+                <a href="#" target="_blank" class="footer__icon"><svg class="icon" viewBox="0 0 16 15">
+                    <use xlink:href="sprite.svg#in"></use>
+                  </svg></a>
+                <a href="#" target="_blank" class="footer__icon"><svg class="icon" viewBox="0 0 8 16">
+                    <use xlink:href="sprite.svg#fb"></use>
+                  </svg></a>
+                <a href="#" target="_blank" class="footer__icon"><svg class="icon" viewBox="0 0 16 14">
+                    <use xlink:href="sprite.svg#twitter"></use>
+                  </svg></a>
+              </div>
+            </div>
+
+            <nav class="menu menu_footer">
+              <ul class="menu__list menu__list_footer">
+                <li><a href="#" class="menu__link menu__link_footer">Menu</a></li>
+                <li><a href="#" class="menu__link menu__link_footer">Blog</a></li>
+                <li><a href="#" class="menu__link menu__link_footer">Pricing</a></li>
+                <li><a href="#" class="menu__link menu__link_footer">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__lower">
+            <p class="footer__text text">© 2023 EATLY All Rights Reserved</p>
+            <div class="footer__icons footer__icons_bottom">
+              <a href="#" target="_blank" class="footer__icon"><svg class="icon" viewBox="0 0 16 16">
+                  <use xlink:href="sprite.svg#insta"></use>
+                </svg></a>
+              <a href="#" target="_blank" class="footer__icon"><svg class="icon" viewBox="0 0 16 15">
+                  <use xlink:href="sprite.svg#in"></use>
+                </svg></a>
+              <a href="#" target="_blank" class="footer__icon"><svg class="icon" viewBox="0 0 8 16">
+                  <use xlink:href="sprite.svg#fb"></use>
+                </svg></a>
+              <a href="#" target="_blank" class="footer__icon"><svg class="icon" viewBox="0 0 16 14">
+                  <use xlink:href="sprite.svg#twitter"></use>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="js/main.js"></script>
+</body>
+
+</html>

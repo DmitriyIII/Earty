@@ -1,0 +1,28 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 -30px 50px #666;
+
+    &__inner {
+        height: clamp(96px, 8vw, 135px);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &::after {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            z-index: 2;
+            background: #fff;
+        }
+    }
+}

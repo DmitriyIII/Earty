@@ -1,0 +1,121 @@
+.intro {
+    padding-top: clamp(96px, 8vw, 135px);
+
+    &__inner {
+        padding-top: 50px;
+        padding-bottom: 85px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+
+        @media (max-width: $md3) {
+            padding-top: 57px;
+            padding-bottom: 60px;
+            flex-direction: column;
+            text-align: center;
+        }
+
+    }
+
+    &__content {
+        width: 100%;
+        max-width: 560px;
+        height: fit-content;
+
+        img {
+            margin-top: 33px;
+        }
+    }
+
+    &__suptitle {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: 18px;
+        padding-left: clamp(46px, 7vw, 74px);
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: rgba(#201F1F, .2);
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            width: clamp(34px, 5.5vw, 54px);
+            height: 2px;
+            background-color: rgba(#201F1F, .2);
+        }
+
+        @media (max-width: $md3) {
+            margin-bottom: 5px;
+            font-size: 9px;
+            letter-spacing: 1.23px;
+            color: rgba(#201F1F, 1);
+
+            &:before {
+                height: 1px;
+                background-color: rgba(#201F1F, 1);
+            }
+        }
+    }
+
+    &__title {
+        font-size: #{fluid(46px, 75px)};
+        letter-spacing: -3px;
+    }
+
+    &__text {
+        margin-top: 18px;
+        max-width: 470px;
+
+        @media (max-width: $md3) {
+            font-size: 15px;
+        }
+
+        span {
+            color: #6C5FBC;
+        }
+
+    }
+
+    &__block-btn {
+        margin-top: clamp(41px, 5vw, 65px);
+        width: fit-content;
+    }
+
+    &__btn {
+        margin-left: 15px;
+        color: #6C5FBC;
+        background: #fff;
+
+        &:active {
+            background: #6C5FBC;
+            color: #fff;
+        }
+
+        @media (min-width: $md3) {
+            &:hover {
+                background: #6C5FBC;
+                color: #fff;
+            }
+        }
+    }
+
+    &__image {
+        @media (max-width: $md3) {
+            padding-top: 47px;
+        }
+
+        img {
+            max-width: clamp(320px, 47.2vw, 680px);
+
+            @media (max-width: $md3) {
+                max-width: clamp(310px, 85vw, 680px);
+            }
+
+        }
+    }
+}

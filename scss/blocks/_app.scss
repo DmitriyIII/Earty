@@ -1,0 +1,74 @@
+.app {
+    &__inner {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 120px;
+
+        @media (max-width: $md3) {
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+    }
+
+    &__image {
+
+        img {
+            position: relative;
+            padding-top: 20px;
+            max-width: clamp(225px, 47.2vw, 371px);
+        }
+    }
+
+    &__mobile-line {
+        position: absolute;
+        max-height: 62px;
+        transform: rotate(345deg);
+
+        @media (max-width: $md5) {
+            transform: rotate(340deg);
+            max-height: 55px;
+            right: 8px;
+
+        }
+    }
+
+    &__content {
+        width: 100%;
+        max-width: 490px;
+        height: fit-content;
+
+        @media (min-width: $md3) {
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+    }
+
+    &__title {
+        font-size: #{fluid(30px, 51px)};
+        font-weight: 700;
+        color: #201F1F;
+    }
+
+    &__text {
+        margin-top: 60px;
+
+
+        li:not(:first-child) {
+            margin-top: 28px;
+        }
+    }
+
+    &__btn {
+        position: relative;
+        margin-top: 66px;
+        width: fit-content;
+
+        @media (max-width: $md3) {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 150px;
+        }
+    }
+}

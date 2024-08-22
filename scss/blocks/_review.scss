@@ -1,0 +1,130 @@
+.review {
+    overflow: hidden;
+
+    &__inner {
+        overflow: hidden;
+        padding-top: 90px;
+        padding-bottom: 180px;
+        border-top: 1px solid #CBCBCB;
+    }
+
+    &__title {
+        text-align: center;
+    }
+
+    &__slider {
+        position: relative;
+        padding-top: 80px;
+
+        @media (max-width: $md3) {
+            width: auto;
+        }
+    }
+
+    &__slider-inner {
+        display: flex;
+        width: 100vw;
+    }
+
+    &__part {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: fit-content;
+        width: 100%;
+        min-width: clamp(325px, 35vw, 500px);
+        padding: clamp(22px, 3vw, 39px);
+        border-radius: 21px;
+        box-shadow: 0 10px 30px 0 rgba(#323142, .3);
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+
+        &:not(:first-child)>.review___up-part {
+            display: none;
+        }
+
+        @media (max-width: $md5) {
+            min-width: 270px;
+        }
+    }
+
+    &__up-part {
+        margin-bottom: 19px;
+        display: none;
+
+        &:first-child {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    &__part-content {
+        display: flex;
+        align-items: center;
+    }
+
+    &__part-img {
+        width: clamp(43px, 5vw, 72px);
+    }
+
+    &__part-name {
+        margin-left: 12px;
+    }
+
+    &__part-title {
+        font-size: #{fluid(13px, 21px)};
+        line-height: 1.5;
+        color: #1A202C;
+    }
+
+    &__part-text {
+        font-size: #{fluid(10px, 17px)};
+        font-weight: 500;
+        font-style: italic;
+        color: #A0AEC0;
+    }
+
+    &__text {
+        font-size: #{fluid(11px, 18px)};
+    }
+
+    &_divider {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: rgba(#936DFF, .1);
+        transition: width 400ms ease;
+
+        &::after {
+            width: 75%;
+            background: rgba(#936DFF, 1);
+        }
+
+        /*
+        @media (min-width: ($md4 + 140px)) {
+            max-width: clamp(335px, 39vw, 715px);
+        }
+
+        @media (min-width: $md3) {
+            max-width: clamp(335px, 50vw, 715px);
+        }
+
+        @media (min-width: $md2) {
+            max-width: clamp(335px, 39vw, 715px);
+        }
+*/
+        @media (min-width: $md4) {
+            max-width: clamp(335px, 50vw, 715px);
+        }
+
+        @media (max-width: ($md4 + 140px)) {
+            max-width: 100%;
+            bottom: auto;
+        }
+
+    }
+}
